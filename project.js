@@ -8,7 +8,7 @@ function sleep(milliseconds) {
 
 function randomize() {
 	var randomColor = '#'+Math.floor(Math.random()*16777215).toString(16);
-	sleep(120);
+	sleep(2000);
 	document.getElementById("ColourBox").style.backgroundColor = randomColor;
 	document.getElementById("ColorText").innerHTML = randomColor;
 }
